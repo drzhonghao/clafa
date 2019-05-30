@@ -14,7 +14,7 @@ cassandra [training](/data/cassandra_9training.rar) [testing](/data/cassandra_9t
 
 The data format is as follows:
 
-###Node features:
+- [Node features]
 
 @attribute nodevec[0] numeric
 ...
@@ -28,13 +28,13 @@ The data format is as follows:
 
 @attribute numberOfDocOccurence numeric // F5, The occurrences of code names in bug reports
 
-###Local features:
+- [Local features]
 D denotes data dependencies
 C denotes control dependencies
 indegree and in denote incoming nodes
 outdegree and out denote outgoing nodes
 
-###Global features:
+- [Global features]
 g denotes global features
 
 
