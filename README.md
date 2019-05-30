@@ -30,10 +30,13 @@ cassandra [training](/data/cassandra_9training.rar) [testing](/data/cassandra_9t
 
 - Local features
 
-D denotes data dependencies
-C denotes control dependencies
-indegree and in denote incoming nodes
-outdegree and out denote outgoing nodes
+	D denotes data dependencies
+	
+	C denotes control dependencies
+	
+	indegree and in denote incoming nodes
+	
+	outdegree and out denote outgoing nodes
 
 - Global features
 
