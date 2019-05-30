@@ -16,17 +16,17 @@ cassandra [training](/data/cassandra_9training.rar) [testing](/data/cassandra_9t
 
 - Node features
 
-@attribute nodevec[0] numeric
-...
-@attribute nodevec[9] numeric // F1, The main code name (full method name or field name)
-
-@attribute nodeType numeric // F2, The node type
-
-@attribute numberOfApi numeric // F3, The number of API names
-
-@attribute numberOfClientCode numeric // F4, The number of client code names
-
-@attribute numberOfDocOccurence numeric // F5, The occurrences of code names in bug reports
+	@attribute nodevec[0] numeric
+	...
+	@attribute nodevec[9] numeric // F1, The main code name (full method name or field name)
+	
+	@attribute nodeType numeric // F2, The node type
+	
+	@attribute numberOfApi numeric // F3, The number of API names
+	
+	@attribute numberOfClientCode numeric // F4, The number of client code names
+	
+	@attribute numberOfDocOccurence numeric // F5, The occurrences of code names in bug reports
 
 - Local features
 D denotes data dependencies
