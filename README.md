@@ -54,7 +54,7 @@ cassandra [training](/data/cassandra_9training.rar) [testing](/data/cassandra_9t
 
 - Labels
 
-	@attribute class {0,1} // o for clean, 1 for buggy	
+	@attribute class {0,1} // 0 for clean, 1 for buggy	
 	
 ## Related tools
 
