@@ -41,5 +41,5 @@ g denotes global features
 
 The latest version of GRAPA is hosted on its [website](https://github.com/drzhonghao/grapa).
 
-Some dependencies are available on the website of [Pattern finder](https://github.com/yewang16/pattern-finder)
+Some dependencies are available on the website of [Pattern finder](https://github.com/yewang16/pattern-finder).
 
