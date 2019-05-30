@@ -40,7 +40,7 @@ cassandra [training](/data/cassandra_9training.rar) [testing](/data/cassandra_9t
 
 - Global features
 
-g denotes global features
+	g denotes global features
 
 ## Related tools
 
