@@ -17,7 +17,9 @@ cassandra [training](/data/cassandra_9training.rar) [testing](/data/cassandra_9t
 - Node features
 
 	@attribute nodevec[0] numeric
+	
 	...
+	
 	@attribute nodevec[9] numeric // F1, The main code name (full method name or field name)
 	
 	@attribute nodeType numeric // F2, The node type
@@ -42,6 +44,18 @@ cassandra [training](/data/cassandra_9training.rar) [testing](/data/cassandra_9t
 
 	g denotes global features
 
+- Bug report feature
+
+	@attribute topic[0] numeric
+
+	...
+	
+	@attribute topic[99] numeric // F46, the classification result of bug reports
+
+- Labels
+
+	@attribute class {0,1} // o for clean, 1 for buggy	
+	
 ## Related tools
 
 The latest version of GRAPA is hosted on its [website](https://github.com/drzhonghao/grapa).
