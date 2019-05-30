@@ -11,3 +11,30 @@ mahout [training](/data/mahout_9training.rar) [testing](/data/mahout_9testing.ra
 derby [training](/data/derby_9training.rar) [testing](/data/derby_9testing.rar)
 
 cassandra [training](/data/cassandra_9training.rar) [testing](/data/cassandra_9testing.rar)
+
+The data format is as follows:
+
+###Node features:
+
+@attribute nodevec[0] numeric
+...
+@attribute nodevec[9] numeric // F1, The main code name (full method name or field name)
+
+@attribute nodeType numeric // F2, The node type
+
+@attribute numberOfApi numeric // F3, The number of API names
+
+@attribute numberOfClientCode numeric // F4, The number of client code names
+
+@attribute numberOfDocOccurence numeric // F5, The occurrences of code names in bug reports
+
+###Local features:
+D denotes data dependencies
+C denotes control dependencies
+indegree and in denote incoming nodes
+outdegree and out denote outgoing nodes
+
+###Global features:
+g denotes global features
+
+
