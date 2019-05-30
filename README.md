@@ -12,9 +12,9 @@ derby [training](/data/derby_9training.rar) [testing](/data/derby_9testing.rar)
 
 cassandra [training](/data/cassandra_9training.rar) [testing](/data/cassandra_9testing.rar)
 
-The data format is as follows:
+## Data format 
 
-- [Node features]
+- Node features
 
 @attribute nodevec[0] numeric
 ...
@@ -28,13 +28,13 @@ The data format is as follows:
 
 @attribute numberOfDocOccurence numeric // F5, The occurrences of code names in bug reports
 
-- [Local features]
+- Local features
 D denotes data dependencies
 C denotes control dependencies
 indegree and in denote incoming nodes
 outdegree and out denote outgoing nodes
 
-- [Global features]
+- Global features
 g denotes global features
 
 
